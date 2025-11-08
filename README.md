@@ -10,18 +10,12 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 ---
 
 ## Enlaces 
-● Presentación:  <link> : <https://nodejs.org/es/download/>
-● Demostración:<link> : <https://nodejs.org/es/download/>  
+● Presentación: `<link>` : <https://nodejs.org/es/download/>
+● Demostración: `<link>` : <https://nodejs.org/es/download/>  
 ● Otros: 
--Node.js con Express. <link> : <https://nodejs.org/es/download/>  
+
+-Node.js con Express. `<link>`: <https://nodejs.org/es/download/>  
 -Pagos: Interledger Open Payments API. `<link>` : <https://openpayments.dev/> 
-
-
-## What technology was used?  
-● Frontend: Web/Mobile (HTML, CSS, JavaScript, React).  
-● Voice Assistant: Web Speech API (SpeechRecognition).  
-● Backend: Node.js with Express. <link> : <https://nodejs.org/en/download/>  
-● Payments: Interledger Open Payments API.  `<link>` : <https://openpayments.dev/> 
 
 ---
 
