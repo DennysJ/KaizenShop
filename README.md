@@ -87,14 +87,15 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 
 ---
 
-## Funciones indispensables / Essential Features  
+## Funciones indispensables 
 - Botón de micrófono para activar Kai.  
 - Conversión voz-texto en tiempo real.  
 - Búsqueda y selección de productos por voz.  
 - Gestión del carrito y pagos mediante comandos naturales.  
 - Feedback hablado y visual para cada acción.  
-- Autenticación segura y accesible.  
-
+- Autenticación segura y accesible.
+  
+## Essential Features 
 - Microphone button to activate Kai.  
 - Real-time voice-to-text conversion.  
 - Voice-based product search and selection.  
@@ -126,13 +127,14 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 ○ Diseño accesible e inclusivo.  
 ○ Redacción de documentación técnica y pitch.  
 
-## Flujo resumido / Simplified Flow  
+## Flujo resumido 
 1. Usuario activa a Kai con un comando de voz.  
 2. Kai reconoce y analiza la intención.  
 3. Se realiza la acción (buscar, agregar o comprar).  
 4. Backend procesa la solicitud.  
 5. Kai responde con confirmación hablada o visual.  
 
+## Simplified Flow  
 1. User activates Kai with a voice command.  
 2. Kai recognizes and analyzes the intent.  
 3. The action is performed (search, add, or purchase).  
