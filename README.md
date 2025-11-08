@@ -78,7 +78,7 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 4. Backend Node.js: integración con la API de tienda/pagos.  
 5. Respuesta → Pantalla/Voz: confirmación visual y hablada.
 
-
+## Architecture 
 1. Voice → Text: speech recognition API.  
 2. Text → Analysis: command interpretation (product, category, action).  
 3. Text → API: request to backend (/api/shop).  
