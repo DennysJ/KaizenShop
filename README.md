@@ -54,7 +54,8 @@ The voice assistant *Kai* listens, interprets, and guides users step-by-step —
 Unlike traditional e-commerce apps, *it requires no typing or complex navigation*.  
 Kai provides spoken and visual confirmations to ensure secure and confident transactions.  
 
-By integrating inclusive digital payment options, it promotes *financial inclusion* and *digital autonomy*.  
+By integrating inclusive digital payment options, it promotes *financial inclusion* and *digital autonomy*. 
+
 ---
 
 ## Beneficios / Benefits  
