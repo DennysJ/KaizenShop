@@ -29,22 +29,22 @@ El asistente *Kai* escucha, interpreta y guía al usuario paso a paso: desde bus
 
 ## Equipo de Trabajo / WorkTeam  
 
-● *Líder de Proyecto / Project Leader* → Denise Jacobo Garcia 
+● *Líder de Proyecto / Project Leader* → [Denise Jacobo Garcia](https://github.com/octocat)
 
 ○ Coordina el desarrollo general del proyecto.  
 ○ Supervisa la accesibilidad y experiencia del usuario.  
 
-● *Frontend Developer* → Alexandra Lizeth Ruiz Martínez  
+● *Frontend Developer* → [Alexandra Lizeth Ruiz Martínez] (https://github.com/octocat)
 
 ○ Implementación de interfaz accesible (React/HTML/CSS).  
 ○ Integración del asistente de voz y flujo de compra.  
 
-● *Backend Developer* → Julio Andrés Reyes García  
+● *Backend Developer* → [Julio Andrés Reyes García] (https://github.com/octocat)
 
 ○ Desarrollo de API REST.  
 ○ Integración con base de datos y pasarela de pago.  
 
-● *UX & Documentación* → Axell Jonathan Méndez Pérez 
+● *UX & Documentación* → [Axell Jonathan Méndez Pérez] (https://github.com/octocat)
 
 ○ Diseño accesible e inclusivo.  
 ○ Redacción de documentación técnica y pitch.
