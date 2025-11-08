@@ -10,13 +10,13 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 ---
 
 ## ¿Cuál es la problemática?  
-Muchas personas —especialmente adultos mayores, usuarios con discapacidad visual o personas no familiarizadas con la tecnología— enfrentan dificultades para navegar tiendas en línea.  
+Muchas personas especialmente adultos mayores, usuarios con discapacidad visual o personas no familiarizadas con la tecnología enfrentan dificultades para navegar tiendas en línea.  
 Las interfaces llenas de botones, texto y pasos complejos generan frustración, abandono de carrito y exclusión digital.  
 
 KaizenShop nace para eliminar esas barreras, ofreciendo una experiencia de compra *guiada, natural y accesible*, mediante un asistente de voz que acompaña al usuario en cada paso del proceso.  
 
 ## What is the problem?  
-Many people —especially older adults, visually impaired users, or those unfamiliar with technology— struggle to navigate online stores.  
+Many people especially older adults, visually impaired users, or those unfamiliar with technology struggle to navigate online stores.  
 Interfaces overloaded with buttons, text, and complex steps lead to frustration, cart abandonment, and digital exclusion.  
 
 KaizenShop was created to remove these barriers, offering a *guided, natural, and accessible shopping experience*, powered by a voice assistant that helps users through every step.  
