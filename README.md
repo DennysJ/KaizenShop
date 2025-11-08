@@ -71,7 +71,7 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 
 ---
 
-## Arquitectura / Architecture  
+## Arquitectura 
 1. Voz → Texto: API de reconocimiento de voz.  
 2. Texto → Análisis: interpretación del comando (producto, categoría, acción).  
 3. Texto → API: solicitud al backend (/api/shop).  
