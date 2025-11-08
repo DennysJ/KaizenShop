@@ -1,10 +1,7 @@
 # KaizenShop
 KaizenShop es una app que hace que comprar en línea sea tan fácil como hablar, sin importar su experiencia digital o capacidad visual. Con el asistente de voz Kai, cualquier persona puede buscar, elegir y pagar productos solo con la voz. 
 
-# KaizenShop + Kai  
-Aplicación que convierte comandos de voz en *compras digitales accesibles*, usando reconocimiento de voz, inteligencia conversacional y APIs de comercio electrónico.  
-
-Experimental application that transforms voice commands into *accessible digital shopping*, using speech recognition, conversational AI, and e-commerce APIs.  
+KaizenShop is an application that makes online shopping as easy as talking, regardless of your digital experience or visual ability. With the voice assistant Kai, anyone can search for, select, and pay for products using only their voice.
 
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img-KaizenShop/Icono.jpg" alt="Prototipo" width="200">
@@ -29,20 +26,20 @@ KaizenShop was created to remove these barriers, offering a *guided, natural, an
 ● Frontend: Web/Móvil (HTML, CSS, JavaScript, React).  
 ● Asistente de voz: Web Speech API (SpeechRecognition).  
 ● Backend: Node.js con Express. <link> : <https://nodejs.org/es/download/>  
-● API de comercio: Integración REST con tiendas y pasarelas de pago.  
+● Pagos: Interledger Open Payments API. `<link>` : <https://openpayments.dev/> 
 ● Base de datos: MongoDB / Firebase (para usuarios y productos).  
 
 ## What technology was used?  
 ● Frontend: Web/Mobile (HTML, CSS, JavaScript, React).  
 ● Voice Assistant: Web Speech API (SpeechRecognition).  
 ● Backend: Node.js with Express. <link> : <https://nodejs.org/en/download/>  
-● E-commerce API: REST integration with stores and payment gateways.  
+● Payments: Interledger Open Payments API.  `<link>` : <https://openpayments.dev/> 
 ● Database: MongoDB / Firebase (for users and products).  
 
 ---
 
 ## ¿Cuál es la solución?  
-*KaizenShop + Kai* permite realizar compras en línea mediante comandos de voz simples.  
+*KaizenShop* permite realizar compras en línea mediante comandos de voz simples.  
 El asistente *Kai* escucha, interpreta y guía al usuario paso a paso: desde buscar productos, agregarlos al carrito, hasta completar el pago.  
 
 A diferencia de las tiendas tradicionales, *no requiere navegar, escribir ni leer texto*.  
@@ -51,7 +48,7 @@ Kai ofrece confirmaciones habladas y visuales para garantizar seguridad y confia
 Además, al integrarse con métodos de pago digitales inclusivos, fomenta la *inclusión financiera* y la *autonomía digital*.  
 
 ## What is the solution?  
-*KaizenShop + Kai* enables online shopping through simple voice commands.  
+*KaizenShop* enables online shopping through simple voice commands.  
 The voice assistant *Kai* listens, interprets, and guides users step-by-step — from product search and cart management to checkout.  
 
 Unlike traditional e-commerce apps, *it requires no typing or complex navigation*.  
@@ -64,12 +61,12 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 - Accesibilidad total: compras solo con la voz.  
 - Acompañamiento humano: experiencia empática y guiada.  
 - Inclusión digital: personas mayores o con discapacidad pueden comprar fácilmente.  
-- Pagos integrados y seguros: sin depender de bancos tradicionales.  
+- Pagos integrados y seguros: with the Open Payments API.
 
 - Full accessibility: shopping using only voice commands.  
 - Human-like guidance: empathetic and step-by-step experience.  
 - Digital inclusion: allows elderly and disabled users to shop easily.  
-- Integrated and secure payments: without relying on traditional banks.  
+- Integrated and secure payments: .  
 
 ---
 
@@ -111,19 +108,19 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 
 ## Responsables / Team Members  
 
-● *Líder de Proyecto / Project Leader* → [Tu nombre o el de tu equipo principal]  
+● *Líder de Proyecto / Project Leader* → Denise Jacobo Garcia 
 ○ Coordina el desarrollo general del proyecto.  
 ○ Supervisa la accesibilidad y experiencia del usuario.  
 
-● *Frontend Developer* → [Nombre]  
+● *Frontend Developer* → Alexandra Lizeth Ruiz Martínez  
 ○ Implementación de interfaz accesible (React/HTML/CSS).  
 ○ Integración del asistente de voz y flujo de compra.  
 
-● *Backend Developer* → [Nombre]  
+● *Backend Developer* → Julio Andrés Reyes García  
 ○ Desarrollo de API REST.  
 ○ Integración con base de datos y pasarela de pago.  
 
-● *UX & Documentación* → [Nombre]  
+● *UX & Documentación* → Axell Jonathan Méndez Pérez 
 ○ Diseño accesible e inclusivo.  
 ○ Redacción de documentación técnica y pitch.  
 
@@ -150,6 +147,5 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 *Lenguaje / Language:* JavaScript  
 *Framework:* Node.js (v22.19.0) + React  
 *Compilador / Compiler:* JavaScript  
-*Plataforma:* Web / Móvil  
 *APIs:* Web Speech API, REST API (Shop & Payments)
 
