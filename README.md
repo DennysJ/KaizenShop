@@ -31,23 +31,19 @@ El asistente *Kai* escucha, interpreta y guía al usuario paso a paso: desde bus
 
 ● *Líder de Proyecto / Project Leader* → [Denise Jacobo Garcia](https://github.com/DennysJ)
 
-○ Coordina el desarrollo general del proyecto.  
-○ Supervisa la accesibilidad y experiencia del usuario.  
+○ Encargada de la coordinación general del equipo, la supervisión de los avances y la elaboración de la documentación técnica y funcional del sistema. Su labor garantiza una comunicación efectiva entre los miembros del equipo y el cumplimiento de los objetivos establecidos.
 
 ● *Frontend Developer* → [Alexandra Lizeth Ruiz Martínez](https://github.com/LizZeth06)
 
-○ Implementación de interfaz accesible (React/HTML/CSS).  
-○ Integración del asistente de voz y flujo de compra.  
+○ Responsable del diseño e implementación de la interfaz de usuario, así como de la integración de la API. Su objetivo es ofrecer una experiencia visual atractiva, interactiva y funcional para el usuario final.
 
 ● *Backend Developer* → [Julio Andrés Reyes García](https://github.com/nsr-1)
 
-○ Desarrollo de API REST.  
-○ Integración con base de datos y pasarela de pago.  
+○ Encargado del desarrollo del servidor, la integración del sistema de reconocimiento por voz y la implementación de medidas de seguridad. Su trabajo asegura la estabilidad, eficiencia y protección de la plataforma.
 
 ● *UX & Documentación* → [Axell Jonathan Méndez Pérez](https://github.com/TheAxellJonathan)
 
-○ Diseño accesible e inclusivo.  
-○ Redacción de documentación técnica y pitch.
+○ Responsable de la presentación del proyecto ante el jurado o público. Desarrolla y expone el discurso con un enfoque persuasivo, destacando el valor, la innovación y los aspectos más relevantes de la propuesta.
 
 ## Aprendizajes/ Learnings
 
