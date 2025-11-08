@@ -27,14 +27,13 @@ KaizenShop was created to remove these barriers, offering a *guided, natural, an
 ● Asistente de voz: Web Speech API (SpeechRecognition).  
 ● Backend: Node.js con Express. <link> : <https://nodejs.org/es/download/>  
 ● Pagos: Interledger Open Payments API. `<link>` : <https://openpayments.dev/> 
-● Base de datos: MongoDB / Firebase (para usuarios y productos).  
+
 
 ## What technology was used?  
 ● Frontend: Web/Mobile (HTML, CSS, JavaScript, React).  
 ● Voice Assistant: Web Speech API (SpeechRecognition).  
 ● Backend: Node.js with Express. <link> : <https://nodejs.org/en/download/>  
 ● Payments: Interledger Open Payments API.  `<link>` : <https://openpayments.dev/> 
-● Database: MongoDB / Firebase (for users and products).  
 
 ---
 
