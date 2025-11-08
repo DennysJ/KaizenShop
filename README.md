@@ -58,12 +58,13 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 
 ---
 
-## Beneficios / Benefits  
+## Beneficios 
 - Accesibilidad total: compras solo con la voz.  
 - Acompañamiento humano: experiencia empática y guiada.  
 - Inclusión digital: personas mayores o con discapacidad pueden comprar fácilmente.  
 - Pagos integrados y seguros: with the Open Payments API.
 
+## Benefits 
 - Full accessibility: shopping using only voice commands.  
 - Human-like guidance: empathetic and step-by-step experience.  
 - Digital inclusion: allows elderly and disabled users to shop easily.  
@@ -112,6 +113,7 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 ## Responsables / Team Members  
 
 ● *Líder de Proyecto / Project Leader* → Denise Jacobo Garcia 
+
 ○ Coordina el desarrollo general del proyecto.  
 ○ Supervisa la accesibilidad y experiencia del usuario.  
 
