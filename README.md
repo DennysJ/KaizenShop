@@ -21,23 +21,9 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 
 ---
 
-## ¿Cuál es la solución?  
+## ¿Cómo funciona?  
 *KaizenShop* permite realizar compras en línea mediante comandos de voz simples.  
 El asistente *Kai* escucha, interpreta y guía al usuario paso a paso: desde buscar productos, agregarlos al carrito, hasta completar el pago.  
-
-A diferencia de las tiendas tradicionales, *no requiere navegar, escribir ni leer texto*.  
-Kai ofrece confirmaciones habladas y visuales para garantizar seguridad y confianza en cada transacción.  
-
-Además, al integrarse con métodos de pago digitales inclusivos, fomenta la *inclusión financiera* y la *autonomía digital*.  
-
-## What is the solution?  
-*KaizenShop* enables online shopping through simple voice commands.  
-The voice assistant *Kai* listens, interprets, and guides users step-by-step — from product search and cart management to checkout.  
-
-Unlike traditional e-commerce apps, *it requires no typing or complex navigation*.  
-Kai provides spoken and visual confirmations to ensure secure and confident transactions.  
-
-By integrating inclusive digital payment options, it promotes *financial inclusion* and *digital autonomy*. 
 
 ---
 
