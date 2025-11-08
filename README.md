@@ -118,14 +118,17 @@ By integrating inclusive digital payment options, it promotes *financial inclusi
 ○ Supervisa la accesibilidad y experiencia del usuario.  
 
 ● *Frontend Developer* → Alexandra Lizeth Ruiz Martínez  
+
 ○ Implementación de interfaz accesible (React/HTML/CSS).  
 ○ Integración del asistente de voz y flujo de compra.  
 
 ● *Backend Developer* → Julio Andrés Reyes García  
+
 ○ Desarrollo de API REST.  
 ○ Integración con base de datos y pasarela de pago.  
 
 ● *UX & Documentación* → Axell Jonathan Méndez Pérez 
+
 ○ Diseño accesible e inclusivo.  
 ○ Redacción de documentación técnica y pitch.  
 
