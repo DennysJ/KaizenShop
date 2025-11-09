@@ -41,7 +41,7 @@ El asistente *Kai* escucha, interpreta y guía al usuario paso a paso: desde bus
 
 ○ Encargado del desarrollo del servidor, la integración del sistema de reconocimiento por voz y la implementación de medidas de seguridad. Su trabajo asegura la estabilidad, eficiencia y protección de la plataforma.
 
-● *UX & Documentación* → [Axell Jonathan Méndez Pérez](https://github.com/TheAxellJonathan)
+● *Presentador y Estratega de Comunicación/Presenter and Communication Strategist* → [Axell Jonathan Méndez Pérez](https://github.com/TheAxellJonathan)
 
 ○ Responsable de la presentación del proyecto ante el jurado o público. Desarrolla y expone el discurso con un enfoque persuasivo, destacando el valor, la innovación y los aspectos más relevantes de la propuesta.
 
