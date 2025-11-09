@@ -176,9 +176,9 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 
   
 ## Logros/ Achievements 
-- Microphone button to activate Kai.  
-- Real-time voice-to-text conversion.  
-- Voice-based product search and selection.  
+- Trabajo en Equipo: Eso nunca ah sido un problema, pero el trabajar de forma tan organizada y al mismo ritmo es un logro que considero importante para mi equipo.
+- Tiempo: Terminar en un tiempo más reducido al que esperabamos.  
+- Dificultad: Desarrollar en poco tiempo una app 
 - Cart and payment management through natural language.  
 - Spoken and visual feedback for every action.  
 - Secure and accessible authentication.  
@@ -188,8 +188,7 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 </div>  
 
 ## ¿Qué viene despues?
-1. Usuario activa a Kai con un comando de voz.  
-2. Kai reconoce y analiza la intención.  
-3. Se realiza la acción (buscar, agregar o comprar).  
-4. Backend procesa la solicitud.  
-5. Kai responde con confirmación hablada o visual.  
+Kaizen Shop tiene un área muy amplia para mejoras, actualizaciones e innovación. 
+-Idioma: Amplio alcance de idiomas, no solo español.
+-Naturalidad: Una interacción mas natural y fluida.
+-
