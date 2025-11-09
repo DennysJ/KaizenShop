@@ -17,7 +17,7 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 -Node.js con Express. `<link>`: <https://nodejs.org/es/download/>  
 -Pagos/ Payments: Interledger Open Payments API. `<link>` : <https://openpayments.dev/> 
 
-¿Cómo funciona? / How does it work?
+## ¿Cómo funciona? / How does it work?
 
 KaizenShop permite realizar compras en línea mediante comandos de voz simples.
 El asistente virtual Kai escucha, interpreta y guía al usuario durante todo el proceso: desde la búsqueda de productos hasta la finalización del pago, garantizando una experiencia de compra fluida, intuitiva y asistida.
@@ -147,6 +147,7 @@ End / Farewell
 Kai: “It’s been a pleasure assisting you. Come back soon for more smart shopping!”
 
 </td> </tr> </table>
+
 ## ¿Cómo ejecutar?/ How to run?
 - Accesibilidad total: compras solo con la voz.  
 - Acompañamiento humano: experiencia empática y guiada.  
