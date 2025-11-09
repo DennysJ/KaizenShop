@@ -242,7 +242,7 @@ This project strengthened our technical and communication skills, reinforcing tr
   <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img-KaizenShop/Prototype.jpg" alt="Prototype" width="300">
 </div>  
 
-## ¿Qué viene despues?/What comes next?
+## ¿Qué viene después?/What comes next?
 
 KaizenShop cuenta con un alto potencial para continuar su desarrollo, incorporando nuevas funcionalidades y mejoras que fortalezcan su valor comercial. Entre las áreas más viables y estratégicas se encuentran:
 
