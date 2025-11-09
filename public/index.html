@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KaizenShop</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">KAIZENSHOP</div>
+    <div class="icons">
+  <div class="cart-wrapper">
+  <i class="fas fa-shopping-cart" id="cartIcon"></i>
+  <span id="cartCount" class="cart-count">0</span>
+</div>
+
+  <i class="fas fa-user"></i>
+</div>
+
+  </header>
+
+  <h1>Bienvenido!</h1>
+<img id="darkImage" src="img/kai3.png" alt="Imagen Dark Mode">
+
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Buscar..." id="searchInput" />
+      <div class="toggle" id="themeToggle"></div>
+    </div>
+  </div>
+
+  <div class="cards" id="productosContainer"></div>
+
+  <div class="modal" id="productModal">
+    <div class="modal-content">
+      <span class="modal-close" id="closeModal">&times;</span>
+      <img id="modalImg" src="" alt="" />
+      <div class="modal-text">
+        <h3 id="modalTitle"></h3>
+        <p id="modalPrice"></p>
+        <p id="modalDesc"></p>
+        <button class="btn-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="cartModal">
+    <div class="modal-content">
+      <span class="modal-close" id="closeCartModal">&times;</span>
+      <div class="modal-text">
+        <h3>Carrito de Compras</h3>
+        <div id="cartItemsContainer"></div>
+        <p><strong>Total:</strong> <span id="cartTotal">$0.00 MX</span></p>
+        <button class="interledger-btn">
+          <div class="interledger-logo-container">
+          <img src="img/logo.png" alt="Interledger Logo">
+         </div>
+         <span class="interledger-btn-text">Pagar con Interledger</span>
+         <div class="interledger-shine-overlay"></div>
+         </button>
+      </div>
+      
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">KAIZENSHOP</div>
+      <div class="footer-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+<div id="paymentProcessing" class="overlay-processing">
+  <div class="processing-content">
+    <div class="spinner"></div>
+    <p>Procesando pago...</p>
+  </div>
+</div>
+
+<audio id="darkSound" src="sounds/darkOn.mp3"></audio>
+<audio id="lightSound" src="sounds/darkOff.mp3"></audio>
+
+<script>
+  const toggle = document.getElementById("themeToggle");
+  const body = document.body;
+  const darkSound = document.getElementById("darkSound");
+  const lightSound = document.getElementById("lightSound");
+
+  toggle.addEventListener("click", () => {
+    const logo = document.querySelector(".logo");
+    body.classList.toggle("dark");
+
+  
+    if (body.classList.contains("dark")) {
+      darkSound.currentTime = 0;
+      darkSound.play();
+    } else {
+      lightSound.currentTime = 0;
+      lightSound.play();
+    }
+
+    logo.classList.add("glow");
+    setTimeout(() => logo.classList.remove("glow"), 1000);
+  });
+  
+
+  const modal = document.getElementById("productModal");
+  const modalImg = document.getElementById("modalImg");
+  const modalTitle = document.getElementById("modalTitle");
+  const modalPrice = document.getElementById("modalPrice");
+  const modalDesc = document.getElementById("modalDesc");
+  const closeModal = document.getElementById("closeModal");
+  const productosContainer = document.getElementById("productosContainer");
+  const searchInput = document.getElementById("searchInput");
+
+ 
+  const cartIcon = document.querySelector(".fa-shopping-cart");
+  const cartModal = document.getElementById("cartModal");
+  const closeCartModal = document.getElementById("closeCartModal");
+  const cartItemsContainer = document.getElementById("cartItemsContainer");
+  const cartTotal = document.getElementById("cartTotal");
+  let carrito = [];
+  let productosGlobal = []; 
+
+
+  function mostrarAlerta(mensaje) {
+    const alerta = document.getElementById("alerta");
+    alerta.textContent = mensaje;
+    alerta.classList.add("mostrar");
+    setTimeout(() => alerta.classList.remove("mostrar"), 2000);
+  }
+
+  
+  async function cargarProductos() {
+    try {
+      const res = await fetch("/api/productos");
+      const productos = await res.json();
+      productosGlobal = productos; 
+      mostrarProductos(productos);
+    } catch (err) {
+      console.error("Error cargando productos:", err);
+      productosContainer.innerHTML = "<p>Error al cargar los productos.</p>";
+    }
+  }
+
+  function mostrarProductos(productos) {
+    productosContainer.innerHTML = "";
+    if (productos.length === 0) {
+      productosContainer.innerHTML = "<p>No se encontraron productos.</p>";
+      return;
+    }
+
+    productos.forEach((p) => {
+      const card = document.createElement("div");
+      card.classList.add("card");
+      card.innerHTML = `
+        <img src="${p.img}" alt="${p.nombre}">
+        <h3>${p.nombre}</h3>
+        <p class="precio">$${p.precio} MXN</p>
+        <div class="descripcion">${p.descripcion}</div>
+        <div class="btn-container">
+          <button class="btn-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+          <div class="btn-plus" 
+               data-name="${p.nombre}" 
+               data-price="${p.precio}" 
+               data-img="${p.img}" 
+               data-desc="${p.descripcion}">+</div>
+        </div>
+      `;
+      productosContainer.appendChild(card);
+    });
+
+
+    document.querySelectorAll(".btn-plus").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        if (!body.classList.contains("dark")) {
+          modalImg.src = btn.dataset.img;
+          modalTitle.textContent = btn.dataset.name;
+          modalPrice.textContent = btn.dataset.price;
+          modalDesc.textContent = btn.dataset.desc;
+          modal.style.display = "flex";
+        }
+      });
+    });
+
+  
+    document.querySelectorAll(".btn-agregar").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".card");
+        const name = card.querySelector("h3").textContent;
+        const price = card.querySelector("p").textContent;
+        const img = card.querySelector("img").src;
+
+        const existingItem = carrito.find((item) => item.name === name);
+        if (existingItem) existingItem.quantity++;
+        else carrito.push({ name, price, img, quantity: 1 });
+
+        renderCartItems();
+        mostrarAlerta("✅ Producto agregado al carrito");
+      });
+    });
+  }
+
+
+  searchInput.addEventListener("input", (e) => {
+    const texto = e.target.value.toLowerCase();
+    const filtrados = productosGlobal.filter((p) =>
+      p.nombre.toLowerCase().includes(texto) ||
+      p.descripcion.toLowerCase().includes(texto)
+    );
+    mostrarProductos(filtrados);
+  });
+
+  closeModal.addEventListener("click", () => (modal.style.display = "none"));
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) modal.style.display = "none";
+  });
+
+  cartIcon.addEventListener("click", () => {
+    cartModal.style.display = "flex";
+    renderCartItems();
+  });
+  closeCartModal.addEventListener("click", () => (cartModal.style.display = "none"));
+  window.addEventListener("click", (e) => {
+    if (e.target === cartModal) cartModal.style.display = "none";
+  });
+
+function renderCartItems() {
+    cartItemsContainer.innerHTML = "";
+    if (carrito.length === 0) {
+        cartItemsContainer.innerHTML = "<p class='empty-cart'>Tu carrito está vacío.</p>";
+        cartTotal.textContent = "$0.00 MX";
+        return;
+    }
+
+    let total = 0;
+    carrito.forEach((item) => {
+        const precioNumerico = parseFloat(item.price.replace(/[^0-9.-]+/g, ""));
+        const subtotal = precioNumerico * item.quantity;
+        total += subtotal;
+
+        const div = document.createElement("div");
+        div.classList.add("cart-item");
+
+        div.innerHTML = `
+            <div class="cart-item-left">
+                <img src="${item.img}" alt="${item.name}" class="cart-item-img">
+            </div>
+            <div class="cart-item-center">
+                <div class="cart-item-name">${item.name}</div>
+                <div class="cart-item-details">
+                    <span class="cart-item-quantity">Cantidad: ${item.quantity}</span>
+                    <span class="cart-item-price">Precio: ${item.price}</span>
+                </div>
+            </div>
+            <div class="cart-item-right">
+                <div class="cart-item-subtotal">$${subtotal.toFixed(2)} MX</div>
+            </div>
+        `;
+        cartItemsContainer.appendChild(div);
+    });
+
+    cartTotal.textContent = `$${total.toFixed(2)} MX`;
+    cartTotal.classList.add("cart-total"); 
+    
+const cartCount = document.getElementById("cartCount");
+const totalItems = carrito.reduce((acc, item) => acc + item.quantity, 0);
+cartCount.textContent = totalItems;
+
+const interledgerBtn = document.querySelector(".interledger-btn");
+if (carrito.length > 0) {
+  interledgerBtn.style.display = "flex"; 
+} else {
+  interledgerBtn.style.display = "none";
+}
+
+
+}
+
+
+  cargarProductos();
+
+const interledgerBtn = document.querySelector(".interledger-btn");
+interledgerBtn.addEventListener("click", async () => {
+  if (carrito.length === 0) return;
+
+  const total = carrito.reduce((acc, item) => {
+    const priceNumber = parseFloat(item.price.replace(/[^0-9.-]+/g, ""));
+    return acc + priceNumber * item.quantity;
+  }, 0);
+
+  const totalRedondeado = Math.round(total * 100) / 100;
+
+  if (isNaN(totalRedondeado) || totalRedondeado <= 0) {
+    alert("Total inválido, revisa los precios del carrito");
+    return;
+  }
+
+  document.getElementById("paymentProcessing").style.display = "flex";
+
+  try {
+    const res = await fetch("/api/pagar", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ amount: totalRedondeado }),
+    });
+
+    const data = await res.json();
+
+    if (res.ok && data.redirectUrl) {
+      
+      setTimeout(() => {
+        window.location.href = data.redirectUrl;
+      }, 1500);
+    } else {
+      alert("Error: " + (data.error || "No se pudo iniciar el pago"));
+      document.getElementById("paymentProcessing").style.display = "none";
+    }
+  } catch (err) {
+    console.error("Error de conexión:", err);
+    alert("Error al conectarse al servidor de pago.");
+    document.getElementById("paymentProcessing").style.display = "none";
+  }
+});
+
+
+let kaiActivo = false;
+let recognition;
+let productosFiltrados = []; 
+const synth = window.speechSynthesis;
+
+
+function kaiHabla(texto) {
+  
+  const utter = new SpeechSynthesisUtterance(texto);
+  utter.lang = "es-ES";
+  utter.pitch = 1.1;
+  utter.rate = 0.9;
+  utter.volume = 1;
+  synth.speak(utter);
+}
+
+
+function iniciarReconocimiento() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  recognition = new SR();
+  recognition.lang = "es-ES";
+  recognition.continuous = true;
+  recognition.interimResults = false;
+
+  recognition.onresult = (event) => {
+    const texto = event.results[event.resultIndex][0].transcript.toLowerCase();
+    console.log(" Comando:", texto);
+    manejarComandoKai(texto);
+  };
+
+  recognition.onend = () => {
+    if (kaiActivo) recognition.start();
+  };
+
+  recognition.start();
+}
+
+function manejarComandoKai(texto) {
+  
+  if (texto.includes("buscar")) {
+    const termino = texto.replace("buscar", "").trim();
+    if (termino.length > 0) {
+      kaiHabla(`Buscando ${termino}...`);
+      productosFiltrados = productosGlobal.filter((p) =>
+        p.nombre.toLowerCase().includes(termino) ||
+        p.descripcion.toLowerCase().includes(termino)
+      );
+      mostrarProductos(productosFiltrados);
+
+      if (productosFiltrados.length > 0) {
+        let mensaje = `Encontré ${productosFiltrados.length} resultado${productosFiltrados.length > 1 ? "s" : ""}: `;
+        productosFiltrados.forEach((p, i) => {
+          mensaje += `Opción ${i + 1}: ${p.nombre} – ${p.precio} pesos. `;
+        });
+        kaiHabla(mensaje + "¿Deseas agregar alguno al carrito?");
+      } else {
+        kaiHabla("No encontré ningún producto con ese nombre.");
+      }
+    } else {
+      kaiHabla("¿Qué producto quieres buscar?");
+    }
+  }
+
+else if (texto.includes("opción")) {
+  const numero = parseInt(texto.replace(/\D/g, ""));
+  const producto = productosFiltrados[numero - 1];
+
+  if (producto) {
+    
+    const botones = document.querySelectorAll(".card");
+    const botonProducto = Array.from(botones).find(card => {
+      return card.querySelector("h3").textContent.trim().toLowerCase() === producto.nombre.toLowerCase();
+    });
+
+    if (botonProducto) {
+      const btnAgregar = botonProducto.querySelector(".btn-agregar");
+      
+     
+      btnAgregar.classList.add("clicked");
+      btnAgregar.click();
+
+      btnAgregar.style.transform = "scale(0.95)";
+      setTimeout(() => {
+        btnAgregar.style.transform = "scale(1)";
+        btnAgregar.classList.remove("clicked");
+      }, 300);
+      
+      kaiHabla(`Perfecto, agregué ${producto.nombre} al carrito.`);
+    } else {
+      kaiHabla("No encontré ese producto en la pantalla.");
+    }
+  } else {
+    kaiHabla("No entendí qué opción querías agregar.");
+  }
+}
+
+
+  else if (texto.includes("carrito")) {
+    if (carrito.length === 0) {
+      kaiHabla("Tu carrito está vacío.");
+      return;
+    }
+
+    cartModal.style.display = "flex";
+    renderCartItems();
+
+    let resumen = "Tienes en tu carrito: ";
+    carrito.forEach((item) => resumen += `${item.name}, ${item.price}. `);
+    const total = carrito.reduce((acc, item) => {
+      const precio = parseFloat(item.price.replace(/[^0-9.]+/g, ""));
+      return acc + precio * item.quantity;
+    }, 0);
+    kaiHabla(`${resumen}. Total ${total} pesos. ¿Deseas pagar o seguir comprando?`);
+  }
+
+
+  else if (texto.includes("pagar")) {
+    kaiHabla("Excelente, procesando el pago.");
+    document.querySelector(".interledger-btn").click();
+  }
+
+ 
+  else if (texto.includes("seguir")) {
+    modal.style.display = "none";
+    cartModal.style.display = "none";
+    kaiHabla("Perfecto, dime qué producto quieres buscar.");
+  }
+
+  
+  else if (texto.includes("gracias") || texto.includes("adiós")) {
+    kaiHabla("Ha sido un placer ayudarte. ¡Vuelve pronto para más compras inteligentes!");
+    recognition.stop();
+    kaiActivo = false;
+    body.classList.remove("dark");
+  }
+
+  else {
+    kaiHabla("No entendí eso, puedes decir buscar, ver carrito o pagar.");
+  }
+}
+
+toggle.addEventListener("click", () => {
+  if (body.classList.contains("dark") && !kaiActivo) {
+    kaiActivo = true;
+    kaiHabla("¡Hola! Soy Kay, tu asistente de compras. ¿Qué te gustaría hacer hoy?");
+    iniciarReconocimiento();
+  } else if (!body.classList.contains("dark") && kaiActivo) {
+    kaiActivo = false;
+    recognition?.stop();
+    kaiHabla("Modo asistente desactivado. Puedes seguir comprando manualmente.");
+  }
+});
+
+</script>
+
+  <div id="alerta" class="alerta"></div>
+
+</body>
+</html>
