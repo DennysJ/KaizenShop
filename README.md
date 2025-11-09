@@ -175,14 +175,26 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 ## Aprendizajes/ Learnings
 
   
-## Logros/ Achievements 
--Trabajo en equipo: Aunque la colaboración siempre ha sido una fortaleza, lograr un nivel de organización y sincronía tan alto entre todos los miembros fue un avance significativo. Este resultado refleja la comunicación efectiva y la coordinación constante dentro del equipo.
+## Logros / Achievements
 
--Gestión del tiempo: Cumplir con las metas establecidas en un periodo más corto del previsto fue un logro importante, resultado de una buena planificación y compromiso colectivo.
+KaizenShop representó una experiencia de crecimiento tanto técnico como colaborativo, en la que el equipo demostró organización, compromiso y capacidad de adaptación frente a los desafíos del desarrollo.
+KaizenShop represented an experience of both technical and collaborative growth, in which the team demonstrated organization, commitment, and the ability to adapt to development challenges.
 
--Superación de desafíos técnicos: Desarrollar una aplicación funcional en un tiempo limitado, cumpliendo con los estándares y expectativas definidos, representó uno de los mayores retos superados por el equipo.
+1. Trabajo en equipo / Teamwork
+Aunque la colaboración siempre ha sido una fortaleza, alcanzar un nivel tan alto de organización y sincronía entre todos los miembros fue un avance significativo. Este logro refleja la comunicación efectiva y la coordinación constante dentro del equipo.
+Although collaboration has always been a strength, achieving such a high level of organization and synchronization among all members was a significant milestone. This accomplishment reflects effective communication and continuous coordination within the team.
 
--Aprendizaje conjunto: Este proyecto fortaleció nuestras habilidades técnicas y de comunicación, consolidando la confianza en el trabajo colaborativo
+2. Gestión del tiempo / Time Management
+Cumplir con las metas establecidas en un periodo más corto del previsto fue un logro importante, resultado de una buena planificación y del compromiso colectivo.
+Meeting the established goals in a shorter timeframe than expected was an important achievement, resulting from effective planning and strong team commitment.
+
+3. Superación de desafíos técnicos / Overcoming Technical Challenges
+Desarrollar una aplicación funcional en un tiempo limitado, cumpliendo con los estándares y expectativas definidos, representó uno de los mayores retos superados por el equipo.
+Developing a fully functional application within a limited timeframe, while meeting defined standards and expectations, represented one of the team’s greatest challenges successfully overcome.
+
+4. Aprendizaje conjunto / Collective Learning
+Este proyecto fortaleció nuestras habilidades técnicas y de comunicación, consolidando la confianza en el trabajo colaborativo.
+This project strengthened our technical and communication skills, reinforcing trust and efficiency in collaborative work.
 
 
 <div align="center">
@@ -196,22 +208,22 @@ KaizenShop cuenta con un alto potencial para continuar su desarrollo, incorporan
 1. Soporte multilingüe / Multilingual Support
 Ampliar el alcance de la aplicación mediante la integración de múltiples idiomas, permitiendo llegar a usuarios internacionales y mejorar la accesibilidad global del asistente.
 
-Expand the app’s reach by integrating multiple languages, enabling access for international users and improving the assistant’s overall accessibility.
+1. Expand the app’s reach by integrating multiple languages, enabling access for international users and improving the assistant’s overall accessibility.
 
 2. Personalización del usuario / User Personalization
 Incorporar perfiles personalizados que adapten las recomendaciones, historial de búsqueda y tono de interacción según las preferencias de cada cliente.
 
-Implement personalized profiles to tailor recommendations, search history, and interaction tone according to each user’s preferences.
+2. Implement personalized profiles to tailor recommendations, search history, and interaction tone according to each user’s preferences.
 
 3. Recomendaciones inteligentes / Smart Recommendations
 Utilizar técnicas de inteligencia artificial para sugerir productos basados en las búsquedas, historial o comportamientos del usuario, aumentando la retención y satisfacción del cliente.
 
-Use artificial intelligence techniques to suggest products based on user searches, history, or behavior, enhancing engagement and customer satisfaction.
+3. Use artificial intelligence techniques to suggest products based on user searches, history, or behavior, enhancing engagement and customer satisfaction.
 
 4. Asistente con aprendizaje continuo / Continuous Learning Assistant
 Implementar un sistema de aprendizaje automático que permita a Kai mejorar sus respuestas y precisión con base en las interacciones de los usuarios, ofreciendo una experiencia cada vez más personalizada y eficiente.
 
-Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
+4. Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
 
 ## Especificaciones / Specifications
 Lenguaje y versión/Language and version: Java Script y Nodle.js (v22.19.0)
