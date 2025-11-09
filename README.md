@@ -173,7 +173,22 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 ○ Responsable de la presentación del proyecto ante el jurado o público. Desarrolla y expone el discurso con un enfoque persuasivo, destacando el valor, la innovación y los aspectos más relevantes de la propuesta.
 
 ## Aprendizajes/ Learnings
+KaizenShop no solo implicó el desarrollo de una aplicación funcional, sino también la adquisición de habilidades técnicas y personales clave durante el proceso. Entre los aprendizajes más relevantes se encuentran:
 
+-Implementación de la API:
+Se logró integrar exitosamente la comunicación entre el frontend y el backend mediante peticiones HTTP, garantizando un intercambio de datos fluido y confiable dentro del sistema.
+
+-Networking:
+El trabajo en equipo fomentó la colaboración activa y el intercambio de conocimientos entre áreas técnicas, fortaleciendo la comunicación y la coordinación general del proyecto.
+
+-Manejo del tiempo y del estrés:
+La presión de los plazos cortos permitió mejorar la gestión del tiempo, priorizando tareas y manteniendo la concentración ante escenarios de alta demanda.
+
+-Improvisación de soluciones:
+Ante imprevistos técnicos, el equipo desarrolló la capacidad de analizar, proponer y aplicar soluciones rápidas y efectivas, manteniendo la estabilidad del proyecto.
+
+-Aprender a vender la idea:
+Se fortalecieron las habilidades de presentación y comunicación, enfocándose en transmitir el valor, la innovación y la funcionalidad del proyecto ante distintos públicos.
   
 ## Logros / Achievements
 
