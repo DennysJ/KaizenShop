@@ -179,8 +179,6 @@ To run KaizenShop locally, follow the steps below:
 5. El sistema se ejecutará de forma local y estará listo para su uso./
    The system will now run locally and be ready for use.
 
----
-
 ## Equipo de Trabajo / WorkTeam  
 
 ● *Líder de Proyecto / Project Leader* → [Denise Jacobo Garcia](https://github.com/DennysJ)
