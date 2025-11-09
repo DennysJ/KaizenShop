@@ -17,10 +17,115 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 -Node.js con Express. `<link>`: <https://nodejs.org/es/download/>  
 -Pagos/ Payments: Interledger Open Payments API. `<link>` : <https://openpayments.dev/> 
 
-## ¿Cómo funciona?/  How does it work?
-*KaizenShop* permite realizar compras en línea mediante comandos de voz simples.  
-El asistente *Kai* escucha, interpreta y guía al usuario paso a paso: desde buscar productos, agregarlos al carrito, hasta completar el pago.  
+¿Cómo funciona? / How does it work?
 
+KaizenShop permite realizar compras en línea mediante comandos de voz simples.
+El asistente virtual Kai escucha, interpreta y guía al usuario durante todo el proceso: desde la búsqueda de productos hasta la finalización del pago, garantizando una experiencia de compra fluida, intuitiva y asistida.
+
+KaizenShop allows users to make online purchases through simple voice commands.
+The virtual assistant Kai listens, interprets, and guides the user throughout the process — from searching for products to completing the payment — ensuring a smooth, intuitive, and assisted shopping experience.
+
+Flujo general del Asistente de Compras “Kai” / General Flow of the Shopping Assistant “Kai”
+Inicio / Saludo
+
+Kai: “¡Hola! Soy Kai, tu asistente de compras. ¿Qué te gustaría hacer hoy?”
+Opciones:
+
+Buscar producto
+
+Ver carrito
+
+Start / Greeting
+Kai: “Hello! I’m Kai, your shopping assistant. What would you like to do today?”
+Options:
+
+Search for a product
+
+View cart
+
+Si el usuario elige “Buscar producto”
+
+Kai: “¿Qué producto quieres buscar?”
+Ejemplo: El usuario dice: “teclado”
+
+Kai busca en la base de datos y responde:
+“Encontré 2 resultados:
+
+Teclado mecánico RGB – $450 MXN
+
+Teclado inalámbrico compacto – $520 MXN
+¿Deseas agregar uno al carrito?”
+
+Usuario elige: “Opción 2”
+Kai: “Perfecto, agregado al carrito. ¿Qué deseas hacer ahora?”
+Opciones:
+
+Seguir buscando
+
+Ver carrito
+
+If the user chooses “Search for a product”
+Kai: “Which product would you like to search for?”
+Example: The user says: “keyboard”
+
+Kai searches the database and replies:
+“I found 2 results:
+
+RGB Mechanical Keyboard – $450 MXN
+
+Compact Wireless Keyboard – $520 MXN
+Would you like to add one to your cart?”
+
+User chooses: “Option 2”
+Kai: “Perfect, added to your cart. What would you like to do next?”
+Options:
+
+Keep searching
+
+View cart
+
+Si el usuario elige “Ver carrito”
+
+Kai muestra el contenido del carrito:
+“Tienes:
+
+Teclado inalámbrico compacto – $520 MXN
+Total: $520 MXN
+¿Deseas pagar o seguir comprando?”
+Opciones:
+
+Pagar
+
+Seguir comprando
+
+If the user chooses “View cart”
+Kai shows the cart content:
+“You have:
+
+Compact Wireless Keyboard – $520 MXN
+Total: $520 MXN
+Would you like to pay or keep shopping?”
+Options:
+
+Pay
+
+Keep shopping
+
+Si el usuario elige “Pagar”
+
+Kai: “Excelente, procesando el pago...”
+Kai: “Pago exitoso. ¡Gracias por comprar!”
+
+If the user chooses “Pay”
+Kai: “Excellent, processing your payment...”
+Kai: “Payment successful. Thank you for your purchase!”
+
+Fin / Despedida
+
+Kai: “Ha sido un placer ayudarte. ¡Vuelve pronto para más compras inteligentes!”
+
+End / Farewell
+Kai: “It’s been a pleasure assisting you. Come back soon for more smart shopping!”
 ## ¿Cómo ejecutar?/ How to run?
 - Accesibilidad total: compras solo con la voz.  
 - Acompañamiento humano: experiencia empática y guiada.  
