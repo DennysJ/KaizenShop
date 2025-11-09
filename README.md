@@ -172,32 +172,45 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 
 ○ Responsable de la presentación del proyecto ante el jurado o público. Desarrolla y expone el discurso con un enfoque persuasivo, destacando el valor, la innovación y los aspectos más relevantes de la propuesta.
 
-## Aprendizajes/ Learnings
+## Aprendizajes / Learnings
+
 KaizenShop no solo implicó el desarrollo de una aplicación funcional, sino también la adquisición de habilidades técnicas y personales clave durante el proceso. Entre los aprendizajes más relevantes del equipo se encuentran:
 
--Implementación de la API:
+KaizenShop not only involved developing a functional application but also acquiring key technical and personal skills throughout the process. The team’s most significant learnings include:
 
-Aprendimos a integrar exitosamente la API de Open Payments en nuestra app.
+1. Implementación de la API / API Implementation
 
--Networking:
+Aprendimos a integrar exitosamente la API de Open Payments en nuestra aplicación.
+We learned how to successfully integrate the Open Payments API into our application.
 
-El trabajo en equipo fomentó la colaboración activa entre nosotros y otros equipos de trabajo, ádemas del intercambio de conocimientos entre áreas técnicas, fortaleciendo la comunicación.
+2. Networking / Networking
+   
+El trabajo en equipo fomentó la colaboración activa entre nosotros y otros equipos de trabajo, además del intercambio de conocimientos entre áreas técnicas, fortaleciendo la comunicación.
 
--Manejo del tiempo y del estrés:
+Teamwork encouraged active collaboration among our team and others, promoting knowledge exchange across technical areas and strengthening communication.
 
+3. Manejo del tiempo y del estrés / Time and Stress Management
+   
 La presión de los plazos cortos permitió mejorar la gestión del tiempo, priorizando tareas y manteniendo la concentración ante escenarios de alta demanda.
 
--Improvisación de soluciones:
+The pressure of tight deadlines helped improve time management by prioritizing tasks and maintaining focus in high-demand situations.
 
+4. Improvisación de soluciones / Problem-Solving and Adaptability
+   
 Ante imprevistos técnicos, el equipo desarrolló la capacidad de analizar, proponer y aplicar soluciones rápidas y efectivas, manteniendo la estabilidad del proyecto.
 
--Aprender a vender la idea:
+When facing unexpected technical issues, the team developed the ability to analyze, propose, and implement quick and effective solutions, ensuring project stability.
+
+5. Aprender a vender la idea / Learning to Pitch the Idea
 
 Se fortalecieron las habilidades de presentación y comunicación, enfocándose en transmitir el valor, la innovación y la funcionalidad del proyecto ante distintos públicos.
-  
+
+Presentation and communication skills were strengthened, focusing on effectively conveying the project’s value, innovation, and functionality to different audiences.
+
 ## Logros / Achievements
 
 KaizenShop representó una experiencia de crecimiento tanto técnico como colaborativo, en la que el equipo demostró organización, compromiso y capacidad de adaptación frente a los desafíos del desarrollo.
+
 KaizenShop represented an experience of both technical and collaborative growth, in which the team demonstrated organization, commitment, and the ability to adapt to development challenges.
 
 1. Trabajo en equipo / Teamwork
