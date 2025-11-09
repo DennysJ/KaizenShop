@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Audífonos",
+    "precio": 500,
+    "img": "../img/1.png",
+    "descripcion": "Audífonos de alta fidelidad con cancelación de ruido."
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Gamer",
+    "precio": 350,
+    "img": "../img/2.png",
+    "descripcion": "Mouse ergonómico con sensor óptico de alta precisión."
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico",
+    "precio": 1200,
+    "img": "../img/3.png",
+    "descripcion": "Teclado mecánico retroiluminado con switches azules."
+  },
+  {
+  "id": 4,
+  "nombre": "Mouse Gamer con sensor ",
+  "precio": 850,
+  "img": "../img/4.png",
+  "descripcion": "Mouse gamer ergonómico con sensor óptico de alta precisión y luces RGB personalizables."
+}
+]
