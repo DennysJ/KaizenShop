@@ -4,7 +4,7 @@ KaizenShop es una app que hace que comprar en línea sea tan fácil como hablar,
 KaizenShop is an application that makes online shopping as easy as talking, regardless of your digital experience or visual ability. With the voice assistant Kai, anyone can search for, select, and pay for products using only their voice.
 
 <div align="center">
-  <img src="https://github.com/DennysJ/KaizenShop/blob/main/KaizenShop/KS.jpg" alt="Logo" width="200">
+  <img src="https://github.com/DennysJ/KaizenShop/blob/main/KaizenShop/KS.jpg" alt="Logo" width="400">
 </div>
 
 ## Enlaces 
