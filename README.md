@@ -209,7 +209,7 @@ Use artificial intelligence techniques to suggest products based on user searche
 Implementar un sistema de aprendizaje automático que permita a Kai mejorar sus respuestas y precisión con base en las interacciones de los usuarios, ofreciendo una experiencia cada vez más personalizada y eficiente.
 Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
 
-Especificaciones / Specifications
+## Especificaciones / Specifications
 Lenguaje y versión/Language and version: Java Script y Nodle.js (v22.19.0)
 
 Compilador/Compiler: Java Script.
