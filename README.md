@@ -8,9 +8,11 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 </div>
 
 ## Enlaces 
-● Presentación/ Presentation: [link](https://drive.google.com/drive/u/1/folders/1wjlbGF5fdWGIwTob3ZP9wCIQFm40Yebn)
+● Presentación/ Presentation: [link](https://drive.google.com/drive/u/1/folders/1YRC9LtbqexFMKB7oVn69tkNezbNUKN27)
 
-● Demostración/ Demonstration: `<link>` : <https://nodejs.org/es/download/>  
+● Demostración/ Demonstration: [link](https://drive.google.com/drive/u/1/folders/1V1DkOPaTb64UILSY8yqYGqddeGpkgvuG)
+
+● Documentación/ Documentation: [link](https://drive.google.com/drive/u/1/folders/1wjlbGF5fdWGIwTob3ZP9wCIQFm40Yebn)
 
 ● Otros/ Others: 
 
