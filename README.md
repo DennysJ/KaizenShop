@@ -176,12 +176,14 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 
   
 ## Logros/ Achievements 
-- Trabajo en Equipo: Eso nunca ah sido un problema, pero el trabajar de forma tan organizada y al mismo ritmo es un logro que considero importante para mi equipo.
-- Tiempo: Terminar en un tiempo más reducido al que esperabamos.  
-- Dificultad: Desarrollar en poco tiempo una app 
-- Cart and payment management through natural language.  
-- Spoken and visual feedback for every action.  
-- Secure and accessible authentication.  
+-Trabajo en equipo: Aunque la colaboración siempre ha sido una fortaleza, lograr un nivel de organización y sincronía tan alto entre todos los miembros fue un avance significativo. Este resultado refleja la comunicación efectiva y la coordinación constante dentro del equipo.
+
+-Gestión del tiempo: Cumplir con las metas establecidas en un periodo más corto del previsto fue un logro importante, resultado de una buena planificación y compromiso colectivo.
+
+-Superación de desafíos técnicos: Desarrollar una aplicación funcional en un tiempo limitado, cumpliendo con los estándares y expectativas definidos, representó uno de los mayores retos superados por el equipo.
+
+-Aprendizaje conjunto: Este proyecto fortaleció nuestras habilidades técnicas y de comunicación, consolidando la confianza en el trabajo colaborativo
+
 
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img-KaizenShop/Prototype.jpg" alt="Prototype" width="300">
