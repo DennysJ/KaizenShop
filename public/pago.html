@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pago Completo</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #E94E77, #F8B26A, #7BCB8A, #5BC0EB, #A77DC2);
+    background-size: 400% 400%;
+    animation: moveGradient 8s ease infinite;
+  }
+
+  @keyframes moveGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .logo-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: logoAppear 2.5s ease forwards;
+  }
+
+  @keyframes logoAppear {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+      filter: blur(15px);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.1);
+      filter: blur(5px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(0);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    animation: glow 4s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    0% { filter: brightness(1) drop-shadow(0 0 5px rgba(255,255,255,0.4)); }
+    100% { filter: brightness(1.2) drop-shadow(0 0 20px rgba(255,255,255,0.8)); }
+  }
+
+  h1 {
+    position: absolute;
+    bottom: -80px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    opacity: 0;
+    animation: textFade 3s 2s forwards;
+  }
+
+  @keyframes textFade {
+    to { opacity: 1; transform: translateY(10px); }
+  }
+</style>
+</head>
+<body>
+
+<div class="logo-container">
+  <img src="img/logo.png" alt="Interledger Logo">
+  <h1 id="despedida">¡Gracias por pagar con Interledger </h1>
+</div>
+
+<audio id="logoSound" src="sounds/logo.MP3" preload="auto"></audio>
+
+<script>
+
+  function hablar(texto) {
+    const textoVoz = texto.replace("Interledger", "In-ter-ledger"); 
+    const utter = new SpeechSynthesisUtterance(textoVoz);
+    utter.lang = "es-ES";
+    utter.pitch = 1.1;
+    utter.rate = 0.9;
+    utter.volume = 1;
+    window.speechSynthesis.speak(utter);
+  }
+
+  window.addEventListener('load', () => {
+    const texto = document.getElementById('despedida').textContent;
+     const sonido = document.getElementById('logoSound');
+
+  
+    sonido.play().catch(err => console.log("El navegador bloqueó el autoplay:", err));
+
+    setTimeout(() => hablar(texto), 2000); 
+  });
+</script>
+
+</body>
+</html>
