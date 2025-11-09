@@ -182,18 +182,22 @@ KaizenShop represented an experience of both technical and collaborative growth,
 
 1. Trabajo en equipo / Teamwork
 Aunque la colaboración siempre ha sido una fortaleza, alcanzar un nivel tan alto de organización y sincronía entre todos los miembros fue un avance significativo. Este logro refleja la comunicación efectiva y la coordinación constante dentro del equipo.
+
 Although collaboration has always been a strength, achieving such a high level of organization and synchronization among all members was a significant milestone. This accomplishment reflects effective communication and continuous coordination within the team.
 
 2. Gestión del tiempo / Time Management
 Cumplir con las metas establecidas en un periodo más corto del previsto fue un logro importante, resultado de una buena planificación y del compromiso colectivo.
+
 Meeting the established goals in a shorter timeframe than expected was an important achievement, resulting from effective planning and strong team commitment.
 
 3. Superación de desafíos técnicos / Overcoming Technical Challenges
 Desarrollar una aplicación funcional en un tiempo limitado, cumpliendo con los estándares y expectativas definidos, representó uno de los mayores retos superados por el equipo.
+
 Developing a fully functional application within a limited timeframe, while meeting defined standards and expectations, represented one of the team’s greatest challenges successfully overcome.
 
 4. Aprendizaje conjunto / Collective Learning
 Este proyecto fortaleció nuestras habilidades técnicas y de comunicación, consolidando la confianza en el trabajo colaborativo.
+
 This project strengthened our technical and communication skills, reinforcing trust and efficiency in collaborative work.
 
 
