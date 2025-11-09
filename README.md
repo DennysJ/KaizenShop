@@ -273,5 +273,5 @@ Reconocimiento de voz: <link> : https://developer.mozilla.org/en-US/docs/Web/API
 Animación: <link> : https://gsap.com/
 
 <div align="center">
-  <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img/indexas.jpg" alt="InicioIA" width="400">
+  <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img/indexas.jpg" alt="InicioIA" width="600">
 </div> 
