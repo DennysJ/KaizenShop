@@ -188,6 +188,7 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 </div>  
 
 ## ¿Qué viene despues?
+
 Kaizen Shop tiene un área muy amplia para mejoras, actualizaciones e innovación. 
 -Idioma: Amplio alcance de idiomas, no solo español.
 -Naturalidad: Una interacción mas natural y fluida.
