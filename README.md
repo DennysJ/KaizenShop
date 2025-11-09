@@ -235,12 +235,7 @@ Developing a fully functional application within a limited timeframe, while meet
 
 Este proyecto fortaleció nuestras habilidades técnicas y de comunicación, consolidando la confianza en el trabajo colaborativo.
 
-This project strengthened our technical and communication skills, reinforcing trust and efficiency in collaborative work.
-
-
-<div align="center">
-  <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img-KaizenShop/Prototype.jpg" alt="Prototype" width="300">
-</div>  
+This project strengthened our technical and communication skills, reinforcing trust and efficiency in collaborative work. 
 
 ## ¿Qué viene después?/What comes next?
 
@@ -276,3 +271,7 @@ Librerías/libraries:
 Reconocimiento de voz: <link> : https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition
 
 Animación: <link> : https://gsap.com/
+
+<div align="center">
+  <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img/indexas.jpg" alt="InicioIA" width="400">
+</div> 
