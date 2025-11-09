@@ -153,29 +153,30 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
 ## Ejecución del proyecto / Running the Project
 
 Para ejecutar KaizenShop localmente, sigue los pasos a continuación:
+
 To run KaizenShop locally, follow the steps below:
 
-1. Asegúrate de tener instalado **Node.js** en tu sistema.
+1. Asegúrate de tener instalado **Node.js** en tu sistema./
    Make sure you have **Node.js** installed on your system.
 
-2. Abre una terminal en la carpeta raíz del proyecto.
+2. Abre una terminal en la carpeta raíz del proyecto./
    Open a terminal in the project’s root directory.
 
-3. Ejecuta el siguiente comando para iniciar el servidor:
+3. Ejecuta el siguiente comando para iniciar el servidor:/
    Run the following command to start the server:
 
    ```bash
    node server.js
    ```
 
-4. Una vez iniciado, abre tu navegador y accede a:
+4. Una vez iniciado, abre tu navegador y accede a:/
    Once the server is running, open your browser and go to:
 
    ```
    http://localhost:3000
    ```
 
-5. El sistema se ejecutará de forma local y estará listo para su uso.
+5. El sistema se ejecutará de forma local y estará listo para su uso./
    The system will now run locally and be ready for use.
 
 ---
