@@ -26,106 +26,51 @@ KaizenShop allows users to make online purchases through simple voice commands.
 The virtual assistant Kai listens, interprets, and guides the user throughout the process — from searching for products to completing the payment — ensuring a smooth, intuitive, and assisted shopping experience.
 
 Flujo general del Asistente de Compras “Kai” / General Flow of the Shopping Assistant “Kai”
-Inicio / Saludo
-
+Español	English
+Inicio / Saludo	Start / Greeting
 Kai: “¡Hola! Soy Kai, tu asistente de compras. ¿Qué te gustaría hacer hoy?”
 Opciones:
-
-Buscar producto
-
-Ver carrito
-
-Start / Greeting
-Kai: “Hello! I’m Kai, your shopping assistant. What would you like to do today?”
+- Buscar producto
+- Ver carrito	Kai: “Hello! I’m Kai, your shopping assistant. What would you like to do today?”
 Options:
-
-Search for a product
-
-View cart
-
-Si el usuario elige “Buscar producto”
-
+- Search for a product
+- View cart
+Si el usuario elige “Buscar producto”	If the user chooses “Search for a product”
 Kai: “¿Qué producto quieres buscar?”
 Ejemplo: El usuario dice: “teclado”
 
 Kai busca en la base de datos y responde:
-“Encontré 2 resultados:
-
-Teclado mecánico RGB – $450 MXN
-
-Teclado inalámbrico compacto – $520 MXN
-¿Deseas agregar uno al carrito?”
-
+\nEncontré 2 resultados:\n1. Teclado mecánico RGB – $450 MXN\n2. Teclado inalámbrico compacto – $520 MXN\n¿Deseas agregar uno al carrito?\n
 Usuario elige: “Opción 2”
 Kai: “Perfecto, agregado al carrito. ¿Qué deseas hacer ahora?”
 Opciones:
-
-Seguir buscando
-
-Ver carrito
-
-If the user chooses “Search for a product”
-Kai: “Which product would you like to search for?”
+- Seguir buscando
+- Ver carrito	Kai: “Which product would you like to search for?”
 Example: The user says: “keyboard”
 
 Kai searches the database and replies:
-“I found 2 results:
-
-RGB Mechanical Keyboard – $450 MXN
-
-Compact Wireless Keyboard – $520 MXN
-Would you like to add one to your cart?”
-
+\nI found 2 results:\n1. RGB Mechanical Keyboard – $450 MXN\n2. Compact Wireless Keyboard – $520 MXN\nWould you like to add one to your cart?\n
 User chooses: “Option 2”
 Kai: “Perfect, added to your cart. What would you like to do next?”
 Options:
-
-Keep searching
-
-View cart
-
-Si el usuario elige “Ver carrito”
-
+- Keep searching
+- View cart
+Si el usuario elige “Ver carrito”	If the user chooses “View cart”
 Kai muestra el contenido del carrito:
-“Tienes:
-
-Teclado inalámbrico compacto – $520 MXN
-Total: $520 MXN
-¿Deseas pagar o seguir comprando?”
+\nTienes:\n- Teclado inalámbrico compacto – $520 MXN\nTotal: $520 MXN\n¿Deseas pagar o seguir comprando?\n
 Opciones:
-
-Pagar
-
-Seguir comprando
-
-If the user chooses “View cart”
-Kai shows the cart content:
-“You have:
-
-Compact Wireless Keyboard – $520 MXN
-Total: $520 MXN
-Would you like to pay or keep shopping?”
+- Pagar
+- Seguir comprando	Kai shows the cart content:
+\nYou have:\n- Compact Wireless Keyboard – $520 MXN\nTotal: $520 MXN\nWould you like to pay or keep shopping?\n
 Options:
-
-Pay
-
-Keep shopping
-
-Si el usuario elige “Pagar”
-
+- Pay
+- Keep shopping
+Si el usuario elige “Pagar”	If the user chooses “Pay”
 Kai: “Excelente, procesando el pago...”
-Kai: “Pago exitoso. ¡Gracias por comprar!”
-
-If the user chooses “Pay”
-Kai: “Excellent, processing your payment...”
+Kai: “Pago exitoso. ¡Gracias por comprar!”	Kai: “Excellent, processing your payment...”
 Kai: “Payment successful. Thank you for your purchase!”
-
-Fin / Despedida
-
-Kai: “Ha sido un placer ayudarte. ¡Vuelve pronto para más compras inteligentes!”
-
-End / Farewell
-Kai: “It’s been a pleasure assisting you. Come back soon for more smart shopping!”
+Fin / Despedida	End / Farewell
+Kai: “Ha sido un placer ayudarte. ¡Vuelve pronto para más compras inteligentes!”	Kai: “It’s been a pleasure assisting you. Come back soon for more smart shopping!”
 ## ¿Cómo ejecutar?/ How to run?
 - Accesibilidad total: compras solo con la voz.  
 - Acompañamiento humano: experiencia empática y guiada.  
