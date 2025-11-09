@@ -25,7 +25,7 @@ KaizenShop permite realizar compras en línea mediante comandos de voz simples.
 El asistente virtual Kai escucha, interpreta y guía al usuario durante todo el proceso: desde la búsqueda de productos hasta la finalización del pago, garantizando una experiencia de compra fluida, intuitiva y asistida.
 
 KaizenShop allows users to make online purchases through simple voice commands.
-The virtual assistant Kai listens, interprets, and guides the user throughout the process — from searching for products to completing the payment — ensuring a smooth, intuitive, and assisted shopping experience.
+The virtual assistant Kai listens, interprets, and guides the user throughout the process from searching for products to completing the payment ensuring a smooth, intuitive, and assisted shopping experience.
 
 Flujo general del Asistente de Compras “Kai” / General Flow of the Shopping Assistant “Kai”
 <table> <tr> <th>Español</th> <th>English</th> </tr> <tr> <td>
