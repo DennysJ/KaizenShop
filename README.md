@@ -16,8 +16,8 @@ KaizenShop is an application that makes online shopping as easy as talking, rega
 
 ● Otros/ Others: 
 
--Node.js con Express. `<link>`: <https://nodejs.org/es/download/>  
--Pagos/ Payments: Interledger Open Payments API. `<link>` : <https://openpayments.dev/> 
+-Node.js con Express. [link](https://nodejs.org/es/download/)
+-Pagos/ Payments: Interledger Open Payments API. [link](https://openpayments.dev/)
 
 ## ¿Cómo funciona? / How does it work?
 
