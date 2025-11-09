@@ -1,4 +1,4 @@
-// server.js
+
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -10,42 +10,31 @@ import {
 const app = express();
 const PORT = 3000;
 
-// ===============================================================
-// 🧱 Rutas absolutas
-// ===============================================================
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Middleware
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
-// ===============================================================
-// 🌐 Ruta principal
-// ===============================================================
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// ===============================================================
-// 🛍️ Ruta para obtener productos
-// ===============================================================
+
 app.get("/api/productos", (req, res) => {
   res.sendFile(path.join(__dirname, "productos.json"));
 });
 
-// ===============================================================
-// 💰 Configuración inicial de Open Payments
-// ===============================================================
 const clientPromise = createAuthenticatedClient({
   walletAddressUrl: "https://ilp.interledger-test.dev/platzilizmxn",
   privateKey: "private.key",
   keyId: "96cf1572-00ef-4c29-8c37-a3f38e830db7",
 });
 
-// ===============================================================
-// 🔧 Funciones auxiliares
-// ===============================================================
+
 function toMinorUnits(amount, assetScale) {
   return Math.round(parseFloat(amount) * Math.pow(10, assetScale)).toString();
 }
@@ -60,9 +49,7 @@ function handleError(res, step, err) {
   });
 }
 
-// ===============================================================
-// 🪙 Ruta para iniciar pago
-// ===============================================================
+
 app.post("/api/pagar", async (req, res) => {
   const { amount } = req.body;
   console.log("Body recibido:", req.body);
@@ -137,7 +124,7 @@ app.post("/api/pagar", async (req, res) => {
       }
     );
 
-    // Step 5: Grant outgoing payment interactivo con redirección a pago.html
+    // Step 5: Grant outgoing payment
     const outgoingPaymentGrant = await client.grant.request(
       { url: sendingWalletAddress.authServer },
       {
@@ -168,7 +155,7 @@ app.post("/api/pagar", async (req, res) => {
       }
     );
 
-    // ✅ Responder al frontend con los datos necesarios para redirigir
+  
     res.json({
       redirectUrl: outgoingPaymentGrant.interact?.redirect,
       quoteId: quote.id,
@@ -180,17 +167,14 @@ app.post("/api/pagar", async (req, res) => {
   }
 });
 
-// ===============================================================
-// 🟢 Ruta para manejar la redirección del flujo Interledger
-// ===============================================================
+
 app.get("/interledger/finish", (req, res) => {
   console.log("✅ Pago autorizado por Interledger, redirigiendo a pago.html...");
   res.redirect("/pago.html");
 });
 
-// ===============================================================
-// 🖥️ Iniciar servidor
-// ===============================================================
+
 app.listen(PORT, () => {
   console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
 });
+
