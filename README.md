@@ -267,24 +267,28 @@ This project strengthened our technical and communication skills, reinforcing tr
 KaizenShop cuenta con un alto potencial para continuar su desarrollo, incorporando nuevas funcionalidades y mejoras que fortalezcan su valor comercial. Entre las áreas más viables y estratégicas se encuentran:
 
 1. Soporte multilingüe / Multilingual Support
+
 Ampliar el alcance de la aplicación mediante la integración de múltiples idiomas, permitiendo llegar a usuarios internacionales y mejorar la accesibilidad global del asistente.
 
-1. Expand the app’s reach by integrating multiple languages, enabling access for international users and improving the assistant’s overall accessibility.
+Expand the app’s reach by integrating multiple languages, enabling access for international users and improving the assistant’s overall accessibility.
 
 2. Personalización del usuario / User Personalization
+   
 Incorporar perfiles personalizados que adapten las recomendaciones, historial de búsqueda y tono de interacción según las preferencias de cada cliente.
 
-2. Implement personalized profiles to tailor recommendations, search history, and interaction tone according to each user’s preferences.
+Implement personalized profiles to tailor recommendations, search history, and interaction tone according to each user’s preferences.
 
 3. Recomendaciones inteligentes / Smart Recommendations
+   
 Utilizar técnicas de inteligencia artificial para sugerir productos basados en las búsquedas, historial o comportamientos del usuario, aumentando la retención y satisfacción del cliente.
 
-3. Use artificial intelligence techniques to suggest products based on user searches, history, or behavior, enhancing engagement and customer satisfaction.
+Use artificial intelligence techniques to suggest products based on user searches, history, or behavior, enhancing engagement and customer satisfaction.
 
 4. Asistente con aprendizaje continuo / Continuous Learning Assistant
+   
 Implementar un sistema de aprendizaje automático que permita a Kai mejorar sus respuestas y precisión con base en las interacciones de los usuarios, ofreciendo una experiencia cada vez más personalizada y eficiente.
 
-4. Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
+Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
 
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img/indexas.jpg" alt="InicioIA" width="600">
