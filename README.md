@@ -286,17 +286,6 @@ Implementar un sistema de aprendizaje automático que permita a Kai mejorar sus 
 
 4. Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
 
-## Especificaciones / Specifications
-Lenguaje y versión/Language and version: Java Script y Nodle.js (v22.19.0)
-
-Compilador/Compiler: Java Script.
-
-Librerías/libraries:
-
-Reconocimiento de voz: <link> : https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition
-
-Animación: <link> : https://gsap.com/
-
 <div align="center">
   <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img/indexas.jpg" alt="InicioIA" width="600">
 </div> 
