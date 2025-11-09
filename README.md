@@ -189,7 +189,33 @@ Kai: “It’s been a pleasure assisting you. Come back soon for more smart shop
   <img src="https://github.com/DennysJ/KaizenShop/blob/main/Img-KaizenShop/Prototype.jpg" alt="Prototype" width="300">
 </div>  
 
-## ¿Qué viene despues?
-Kaizen Shop tiene un área muy amplia para mejoras, actualizaciones e innovación. 
--Idioma: Amplio alcance de idiomas, no solo español.
--Naturalidad: Una interacción mas natural y fluida.
+## ¿Qué viene despues?/What comes next?
+
+KaizenShop cuenta con un alto potencial para continuar su desarrollo, incorporando nuevas funcionalidades y mejoras que fortalezcan su valor comercial. Entre las áreas más viables y estratégicas se encuentran:
+
+1. Soporte multilingüe / Multilingual Support
+Ampliar el alcance de la aplicación mediante la integración de múltiples idiomas, permitiendo llegar a usuarios internacionales y mejorar la accesibilidad global del asistente.
+Expand the app’s reach by integrating multiple languages, enabling access for international users and improving the assistant’s overall accessibility.
+
+2. Personalización del usuario / User Personalization
+Incorporar perfiles personalizados que adapten las recomendaciones, historial de búsqueda y tono de interacción según las preferencias de cada cliente.
+Implement personalized profiles to tailor recommendations, search history, and interaction tone according to each user’s preferences.
+
+3. Recomendaciones inteligentes / Smart Recommendations
+Utilizar técnicas de inteligencia artificial para sugerir productos basados en las búsquedas, historial o comportamientos del usuario, aumentando la retención y satisfacción del cliente.
+Use artificial intelligence techniques to suggest products based on user searches, history, or behavior, enhancing engagement and customer satisfaction.
+
+4. Asistente con aprendizaje continuo / Continuous Learning Assistant
+Implementar un sistema de aprendizaje automático que permita a Kai mejorar sus respuestas y precisión con base en las interacciones de los usuarios, ofreciendo una experiencia cada vez más personalizada y eficiente.
+Implement a machine learning system that allows Kai to improve its responses and accuracy based on user interactions, delivering a more personalized and efficient experience over time.
+
+Especificaciones / Specifications
+Lenguaje y versión/Language and version: Java Script y Nodle.js (v22.19.0)
+
+Compilador/Compiler: Java Script.
+
+Librerías/libraries:
+
+Reconocimiento de voz: <link> : https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition
+
+Animación: <link> : https://gsap.com/
